@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Biblioteca</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--- CSS -->
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="estilo.css">
+<!--- JS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script language="javascript" src="filtros_controller.js"></script>
+<script language="javascript" src="livros_controller.js"></script>
+</head>
+
+<body id="corpo">
+  <div class="container">
+    <div style="background-color: #1c1c1c;
+    border-radius: 7px;
+    height: 220px;
+    margin-bottom: 20px;">
+        <img src="img/3672885_bookcase_bookshelf_bookstore_education_encyclopedia_icon.png" style="height: 80px; width: 80px;margin-top: 40px;margin-left: 40px;">
+        <div>
+          <p class="texto" style="color: white;
+          margin: 0 auto;
+          padding: 0 20%;
+          font-size: 50px;
+          margin-left: 20px;"> 
+            Livraria
+          </p>
+        </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="alert alert-primary" role="alert">
+      Selecione uma opção de filtro!
+    </div>
+
+    <div class="jumbotron" style=" background-color: #1c1c1c">
+      <div id="DivLivros" class="container-fluid"> 
+        <!-- Filtros -->
+        <div class="form-row">
+          <div class="col-10 ">
+            <select id="precos" class="custom-select" id="inputGroupSelect01">
+              <option value="1" selected>Escolha uma opção</option>
+              <option value="2">Menor Preço</option>
+              <option value="3">Maior Preço</option>
+            </select>
+          </div>
+          <div class="col-2">
+            <button class="btn btn-primary" onclick="AdicionarLivros()">Pesquisar</button>
+          </div>
+        </div>
+        <br>
+        <div class="col-4 ">
+          <div class="form-check">
+            <input id="Ordem" class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+            <label class="form-check-label" for="defaultCheck1" style="color: azure;">
+              Filtrar por Ordem Alfabética
+            </label>
+          </div>
+        </div>
+        <br>
+        <br>
+        <!-- Teste Card -->       
+
+      </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer">
+        <nav>
+            <ul>
+                <li><a href="#">Copyright</a></li>
+                <li><a href="#">Termos de uso</a></li>
+                <li><a href="#">Política de privacidade</a></li>
+                <li><a href="#">Contato</a></li>
+                <p class="footer-desc">© 2020-2021 Livraria profissional desenvolvida por estudantes para estudantes</p>
+            </ul>
+        </nav>
+    </div>
+</footer>
+
+
+</body>
+<footer>
+
+</footer>
+</html>

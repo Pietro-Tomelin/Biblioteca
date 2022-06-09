@@ -1,0 +1,46 @@
+
+  #corpo {
+    background-image: url("img/completo.png");
+  }
+
+  .footer ul{
+    list-style: none;
+    margin: 0 auto;
+    padding: 0 20%;
+}
+
+.footer ul{
+  background-color: #1c1c1c;
+    text-align: center;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 90px;
+}
+
+.footer ul li{
+    display: inline;
+    margin-left: 10px;
+}
+
+.footer ul li a{
+    text-decoration: none;
+    color:white;
+    font-size: 13px;
+    font-family: sans-serif;
+    display: inline-block;
+    padding: 15px;
+}
+
+.footer-desc{
+    color: white;
+    font-family: sans-serif;
+    font-size: 13px;
+    padding-top: 10px;
+}
+
+#texto{
+  color: white;
+  font-family: sans-serif;
+  font-size: 40px;
+}
